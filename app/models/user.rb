@@ -7,7 +7,7 @@
 #  email      :string(255)
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#
+#  User.create(name: "Chris Mailloux", email: "chrismayu@gmail.com", password: "mytoby", password_confirmation: "mytoby")
 
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
